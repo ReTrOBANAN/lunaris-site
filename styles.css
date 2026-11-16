@@ -144,7 +144,7 @@ nav a:hover, nav a[aria-current] { color: var(--t-violet); }
 .mode.m3 { background: #ede9f5; }
 .mode.m4 { background: #e8efed; }
 .mode h3 { font-size: 21px; color: var(--fg); margin-bottom: 18px; }
-.mode dl { display: grid; grid-template-columns: 86px 1fr; gap: 7px 12px; margin: 0; font-size: 12px; line-height: 1.8; }
+.mode dl { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 7px 8px; margin: 0; font-size: 12px; line-height: 1.8; }
 .mode dt { font-weight: 800; color: #5f6477; }
 .mode dd { margin: 0; color: #61677b; }
 .mode-art { display: flex; align-items: center; gap: 7px; height: 42px; margin-bottom: 28px; }
@@ -486,7 +486,7 @@ footer { padding-block: 38px 24px; background: #faf9f6; }
   .modes { grid-template-columns: 1fr; }
   .mode { padding: 26px; }
   .mode h3 { font-size: 20px; }
-  .mode dl { grid-template-columns: 83px 1fr; gap: 6px 12px; }
+  .mode dl { grid-template-columns: max-content minmax(0, 1fr); gap: 6px 8px; }
   .mode dd { margin: 0; }
   .psy { grid-template-columns: 1fr; gap: 26px; }
   .parts li { grid-template-columns: 92px 1fr; gap: 10px; }
