@@ -225,7 +225,6 @@ nav a:hover, nav a[aria-current] { color: var(--t-violet); }
 .next li::before { content: '→'; color: #957ab5; }
 .two { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; }
 .two h3 { font-size: 19px; }
-#team { padding-top: 0; }
 .team { display: grid; grid-template-columns: repeat(4, 1fr); gap: 28px; }
 .person { min-width: 0; padding-top: 28px; border-top: 1px solid var(--line); }
 .ava { width: 64px; height: 64px; display: grid; place-items: center; margin-bottom: 24px; border-radius: 50%; background: #f0e4d2; color: #92652e; font-size: 17px; font-weight: 700; }
